@@ -4,23 +4,46 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-
-var article_one={
-  title:'article-one | nithya',
-  heading:'Article One',
-  date:'dec 10,2016',
-  content:`  
-            <p>
-                this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
-            </p>
-            <p>
-                this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
-            </p>
-            <p>
-                this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
-            </p>`
-  
-    
+var article={
+     article_one:{
+      title:'article-one | nithya',
+      heading:'Article One',
+      date:'dec 10,2016',
+      content:`  
+                <p>
+                    this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
+                </p>
+                <p>
+                    this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
+                </p>
+                <p>
+                    this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
+                </p>`
+      
+        
+    },
+    article_two:{
+      title:'article-two | nithya',
+      heading:'Article two',
+      date:'dec 10,2016',
+      content:`  
+                <p>
+                    this is my second webpage.
+                </p>`
+      
+        
+    },
+    article_three:{
+      title:'article-three | nithya',
+      heading:'Article three',
+      date:'dec 10,2016',
+      content:`  
+                <p>
+                    this is my third webpage.
+                </p>`
+      
+        
+    }
 };
 function createTemplate(data){
     var date=data.date;
@@ -68,10 +91,10 @@ app.get('/article-one', function (req, res) {
    res.send(createTemplate(article_one));
 });
 app.get('/article-two', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+   res.send(createTemplate(article_two));
 });
 app.get('/article-three', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
+   res.send(createTemplate(article_three));
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
