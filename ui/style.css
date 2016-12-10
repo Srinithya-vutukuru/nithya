@@ -21,7 +21,7 @@ body {
 }
 .container{
     max-width: 800px;
-    margin: 100px;
+    margin: 0 auto;
     color: #303F9F;
     padding-left: 20px;
     padding-right: 20px;
