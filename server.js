@@ -11,13 +11,8 @@ var articles={
       date:'dec 10,2016',
       content:`  
                 <p>
-                    this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
-                </p>
-                <p>
-                    this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
-                </p>
-                <p>
-                    this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.this is my first webpage.
+                    this is my first webpage.
+                    
                 </p>`
       
         
