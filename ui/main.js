@@ -13,3 +13,6 @@ img.onclick = function(){
 
   var interval=setInterval(moveright,100);  
   };
+var num  = document.getElementById('number');
+num += 1;
+num.innerHTML = num;
