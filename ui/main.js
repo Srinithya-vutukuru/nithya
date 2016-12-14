@@ -5,6 +5,6 @@ element.innerHTML = 'this is nithya';
  
 var img = document.getElementById('madi');
 img.onclick = function(){
-  img.style.marginLeft+='10px';  
+  img.style.marginLeft+='50px';  
     
 };
