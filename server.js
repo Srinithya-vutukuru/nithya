@@ -67,7 +67,7 @@ function createTemplate(data){
                     ${date}
                 </div>
             
-                <div class="center text-medium bold">
+                <div class="center text-big bold">
                   ${content}
                     
                 </div>
