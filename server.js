@@ -12,7 +12,6 @@ var articles={
       content:`  
                 <p>
                     this is my first webpage.
-                    
                 </p>`
       
         
