@@ -4,7 +4,11 @@ var element = document.getElementById('main-text');
 element.innerHTML = 'this is nithya';
  
 var img = document.getElementById('madi');
-img.onclick = function(){
-  img.style.marginLeft +='50px';  
-    
+var marginleft= 0;
+var moveright = function(){
+    marginleft += 10;
+    img.style.marginLeft = marginleft + 'px';
 };
+img.onclick = function(){
+  var interval=setInterval(moveright,100);  
+  };
