@@ -56,18 +56,18 @@ function createTemplate(data){
         
         <body>
             <div class="content">
-                <div class="center text-big bold>
+                <div class="center text-big bold">
                     <a href="/">HOME</a> 
                 </div>
                 <hr/>
-                <h3 class="center text-big bold>
+                <h3 class="center text-big bold">
                     ${heading}
                 </h3>
-                <div class="center text-big bold>
+                <div class="center text-big bold">
                     ${date}
                 </div>
             
-                <div class="center text-big bold>
+                <div class="center text-big bold">
                   ${content}
                     
                 </div>
