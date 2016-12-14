@@ -60,14 +60,14 @@ function createTemplate(data){
                     <a href="/">HOME</a> 
                 </div>
                 <hr/>
-                <h3 class="center text bold">
+                <h3 class="center text-big bold">
                     ${heading}
                 </h3>
                 <div class="center text-big bold">
                     ${date}
                 </div>
             
-                <div class="center text-big bold">
+                <div class="center text">
                   ${content}
                     
                 </div>
