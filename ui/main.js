@@ -1,4 +1,4 @@
 console.log('Loaded!');
 var element = document.getElementById('main-text');
 
-element.innerHTML = 'new value';
+element.innerHTML = 'this is nithya';
