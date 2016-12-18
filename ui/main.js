@@ -13,3 +13,8 @@ img.onclick = function(){
 
   var interval=setInterval(moveright,100);  
   };
+  var one = document.getElementById('first');
+  one.innerHTML = `app.get('/:articleName', function (req, res) {
+    var articleName=req.params.articleName;
+   res.send(createTemplate(articles[articleName]));
+});`;
