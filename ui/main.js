@@ -13,5 +13,5 @@ img.onclick = function(){
 
   var interval=setInterval(moveright,100);  
   };
-  var one = document.getElementById('first');
+ 
  
