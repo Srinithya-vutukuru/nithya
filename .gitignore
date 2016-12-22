@@ -9,4 +9,8 @@ npm-debug.log
 
 # Docker
 Dockerfile
+<<<<<<< HEAD
 docker-compose.yml
+=======
+docker-compose.yml
+>>>>>>> a13b2dfd314d21df945b3ebb9428fa3c53d9e7da

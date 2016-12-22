@@ -4,12 +4,26 @@
   "description": "IMAD 2016 course app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "nithya",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
     "morgan": "^1.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srinithya-vutukuru/pandu.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "bugs": {
+    "url": "https://github.com/Srinithya-vutukuru/pandu/issues"
+  },
+  "homepage": "https://github.com/Srinithya-vutukuru/pandu#readme"
 }
